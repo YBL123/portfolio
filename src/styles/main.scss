@@ -2,6 +2,8 @@
 .portfolio-title-wrap {
   display: flex;
   justify-content: center;
+  font-size: 50px;
+  font-weight: bold;
 }
 
 //! WRAPPER
@@ -45,6 +47,11 @@
   max-width: 300px;
 }
 
+.about-h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
 //! PROJECTS
 .projects-images-row {
   display: flex;
@@ -64,6 +71,8 @@
 .project-title {
   display: flex;
   justify-content: center;
+  font-size: 50px;
+  margin: 0;
 }
 
 .projects-header-wrap {
@@ -75,6 +84,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.projects-h1 {
+  font-size: 70px;
+  font-style: italic;
 }
 
 //! PHOTORAPHY
@@ -91,6 +105,11 @@
 
 .photography-image {
   max-width: 500px;
+}
+
+.photography-h1 {
+  font-size: 70px;
+  font-style: italic;
 }
 
 
