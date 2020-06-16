@@ -1,0 +1,89 @@
+//! PORTFOLIO TITLE
+.portfolio-title-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+//! WRAPPER
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+
+//! NAVBAR
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin: 10px; 
+  .navbar-item {
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+  }
+}
+
+//! HOME & ABOUT
+.about-wrap {
+  margin: 15px;
+}
+
+.home-about-wrap {
+  margin: 10px;
+  .about-h1 {
+    margin: 0;
+  }
+}
+
+.about-page-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-about-text-wrap {
+  margin: 10px;
+  max-width: 300px;
+}
+
+//! PROJECTS
+
+.projects-images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.project-image {
+  padding: 20px;
+  max-width: 500px;
+}
+
+.projects-header-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.projects-page-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+//! PHOTORAPHY
+.photography-section {
+  display: flex;
+  justify-content: center;
+}
+
+
+//! CONTACT 
+
+.contact-wrap {
+  justify-content: center;
+  display: flex;
+}
+
+.contact-text-wrap {
+  justify-content: center;
+  display: flex;
+}
