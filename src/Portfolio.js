@@ -1,9 +1,9 @@
 import React from 'react'
 
 import one from './images/ponee.png'
-import two from './images/ptwo.png'
-import three from './images/pthree.png'
-import four from './images/pfour.png'
+import two from './images/ptwoo.png'
+import three from './images/pthreee.png'
+import four from './images/pfourr.png'
 
 import photo from './images/photo.jpg'
 
