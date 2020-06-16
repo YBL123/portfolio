@@ -72,7 +72,17 @@
 //! PHOTORAPHY
 .photography-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photography-header-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.photography-image {
+  max-width: 500px;
 }
 
 
