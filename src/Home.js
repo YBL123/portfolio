@@ -36,13 +36,24 @@ const Home = () => (
 
         <div className="projects-images">
           <div className="projects-images-row">
+          <div className="projects-image-title-wrap">
+            <h1 className="project-title">Flareon Frogger</h1>
             <img className="project-image" src={one} alt="one" />
+            </div>
+            <div className="projects-image-title-wrap">
+            <h1 className="project-title">FAM</h1>
             <img className="project-image" src={four} alt="four" />
-
+            </div>
           </div>
           <div className="projects-images-row">
+            <div className="projects-image-title-wrap">
+          <h1 className="project-title">plntify</h1>
             <img className="project-image" src={three} alt="three" />
+            </div>
+            <div className="projects-image-title-wrap">
+            <h1 className="project-title">Sorting Hat</h1>
             <img className="project-image" src={two} alt="two" />
+            </div>
           </div>
         </div>
 

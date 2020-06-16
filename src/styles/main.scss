@@ -46,6 +46,9 @@
 }
 
 //! PROJECTS
+.projects-images-row {
+  display: flex;
+}
 
 .projects-images {
   display: flex;
@@ -56,6 +59,11 @@
 .project-image {
   padding: 20px;
   max-width: 500px;
+}
+
+.project-title {
+  display: flex;
+  justify-content: center;
 }
 
 .projects-header-wrap {

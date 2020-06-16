@@ -10,6 +10,7 @@ import Contact from './Contact'
 
 import Header from './common/Header'
 import Navbar from './common/Navbar'
+import Footer from './common/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/About" component={About}/>
         <Route path="/Contact" component={Contact}/>
       </Switch>
+      <Footer />
     </BrowserRouter>
   )
 }
