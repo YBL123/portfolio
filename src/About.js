@@ -9,7 +9,7 @@ const About = () => (
     <h1 className="about-h1">About</h1>
     </div>
 
-    <div className="home-about-text-wrap">
+    <div className="about-page-text-wrap">
       <p className="home-about-text">
       What I love most about photography/art is being able to create things by conceptualising and then bringing those concepts to life. Programming is another conduit through which I will be able to do the same.</p>
       <br />

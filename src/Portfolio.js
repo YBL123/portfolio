@@ -11,7 +11,7 @@ const Portfolio = () => (
   <>
     <section className="projects-page-wrap">
 
-      <div className="projects-wrap">
+      <div className="portfolio-page-projects-wrap">
         <div className="projects-header-wrap">
           <h1 className="projects-h1">Projects</h1>
         </div>
