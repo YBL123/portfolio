@@ -66,7 +66,6 @@ const Home = () => (
         <h1 className="photography-h1">Photography</h1>
       </div>
       <div className="photography-images-row">
-        {/* <img className="photography-image" src={photo} alt="mark vanderloo" /> */}
         <Slideshow />
       </div>
     </section>

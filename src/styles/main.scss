@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: bold;
   margin: 2rem;
   @media screen and (max-width: 770px) {
@@ -79,7 +79,7 @@
 }
 
 .about-h1 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-style: italic;
 }
 
@@ -117,7 +117,7 @@
 .project-title {
   display: flex;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -143,7 +143,7 @@
 }
 
 .projects-h1 {
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-style: italic;
 }
 
@@ -160,13 +160,17 @@
 }
 
 .slide-image {
-  max-width: 20rem;
+  max-width: 25rem;
   justify-content: center;
+  @media screen and (max-width: 380px) { 
+    max-width: 13rem !important;
+  }
 }
 
 .photography-h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
+  margin-top: 4rem;
 }
 
 
@@ -183,7 +187,7 @@
 }
 
 .contact-h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: italic;
 }
 
@@ -192,49 +196,22 @@
 //! SLIDESHOW
 
 .slide-container {
-  max-width: 30rem;
-  margin: auto; }
-  
-  .react-slideshow-container .nav:first-of-type {
-    margin-right: 3rem !important;
+  max-width: 33rem;
+  margin: auto; 
+  @media screen and (max-width: 380px) { 
+    max-width: 20rem !important;
   }
-// h3 {
-//   text-align: center; }
+}
   
-// .each-slide > div {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   background-size: cover;
-//   height: 300px;
-// }
-  
-// .each-slide span {
-//   padding: 20px;
-//   font-size: 20px;
-//   background: #efefef;
-//   text-align: center;
-// }
-  
-// .each-fade {
-//   display: flex;
-// }
-  
-// .each-fade .image-container {
-//   width: 75%;
-//   overflow: hidden;
-// }
-  
-// .each-fade .image-container img {
-//   width: 100%;
-// }
-  
-// .each-fade h2 {
-//   width: 25%;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   margin: 0;
-//   background: #adceed;
-// }
+div.react-slideshow-container .nav:first-of-type {
+  margin-right: 2.5rem !important;
+  @media screen and (max-width: 370px) { 
+    margin-right: 0 !important;
+  }
+}
+
+.react-slideshow-container {
+  max-height: 80rem;
+}
+
 

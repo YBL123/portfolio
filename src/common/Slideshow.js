@@ -11,16 +11,16 @@ import photo9 from '../photography/photo9.jpg'
 import photo10 from '../photography/photo10.jpg'
 import photo11 from '../photography/photo11.jpg'
 
-const fadeImages = [
-  '{ photo3 }',
-  '{ photo4 }',
-  'images/photo.jpg'
-];
+// const fadeImages = [
+//   '{ photo3 }',
+//   '{ photo4 }',
+//   'images/photo.jpg'
+// ];
 
 const fadeProperties = {
   duration: 5000,
   transitionDuration: 500,
-  infinite: false,
+  infinite: true,
   indicators: true,
   onChange: (oldIndex, newIndex) => {
     console.log(`fade transition from ${oldIndex} to ${newIndex}`);
@@ -31,6 +31,7 @@ const Slideshow = () => {
   return (
     <div className="slide-container">
       <Fade {...fadeProperties}>
+
         <div className="each-fade">
           <div className="image-container">
             <img className="slide-image" src={photo3} alt="fadImages" />
@@ -38,6 +39,7 @@ const Slideshow = () => {
           <div className="photo-title">
           <h2>Michael Chima</h2>
           </div>
+
         </div>
         <div className="each-fade">
           <div className="image-container">
@@ -47,6 +49,7 @@ const Slideshow = () => {
           <h2>Michael Chima</h2>
           </div>
         </div>
+
         <div className="each-fade">
           <div className="image-container">
           <img className="slide-image" src={photo5} alt="fadImages" />
@@ -55,6 +58,61 @@ const Slideshow = () => {
           <h2>Bruna Di</h2>
           </div>
         </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo6} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2>Bruna Di</h2>
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo7} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2>Michael Chima</h2>
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo8} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2>Bruna Di</h2>
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo9} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2>Michael Chima</h2>
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo10} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2>Bruna Di</h2>
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo11} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2>Michael Chima</h2>
+          </div>
+        </div>
+
       </Fade>
     </div>
   )
