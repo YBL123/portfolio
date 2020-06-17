@@ -39,20 +39,24 @@ const Home = () => (
           <div className="projects-image-title-wrap">
             <h1 className="project-title">Flareon Frogger</h1>
             <img className="project-image" src={one} alt="one" />
+            <h3>HTML5, CSS3, Javascript (ES6)</h3>
             </div>
             <div className="projects-image-title-wrap">
             <h1 className="project-title">FAM</h1>
             <img className="project-image" src={four} alt="four" />
+            <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
             </div>
           </div>
           <div className="projects-images-row">
             <div className="projects-image-title-wrap">
           <h1 className="project-title">plntify</h1>
             <img className="project-image" src={three} alt="three" />
+            <h3>React, Express, Node.js, MongoDB, Sass</h3>
             </div>
             <div className="projects-image-title-wrap">
             <h1 className="project-title">Sorting Hat</h1>
             <img className="project-image" src={two} alt="two" />
+            <h3>React, Sass, Express, Node.js</h3>
             </div>
           </div>
         </div>
