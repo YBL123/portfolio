@@ -5,7 +5,7 @@ import two from './images/ptwoo.png'
 import three from './images/pthreee.png'
 import four from './images/pfourr.png'
 
-import photo from './images/photo.jpg'
+import Slideshow from './common/Slideshow'
 
 const Home = () => (
   <>
@@ -66,7 +66,8 @@ const Home = () => (
         <h1 className="photography-h1">Photography</h1>
       </div>
       <div className="photography-images-row">
-        <img className="photography-image" src={photo} alt="mark vanderloo" />
+        {/* <img className="photography-image" src={photo} alt="mark vanderloo" /> */}
+        <Slideshow />
       </div>
     </section>
 
