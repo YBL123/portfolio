@@ -1,8 +1,14 @@
+:root {
+  font-size: 16px;
+}
+
+
+
 //! PORTFOLIO TITLE
 .portfolio-title-wrap {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 4rem;
   font-weight: bold;
 }
 
@@ -17,7 +23,7 @@
 .navbar {
   display: flex;
   justify-content: center;
-  margin: 10px; 
+  margin: 0.6rem; 
   .navbar-item {
     text-decoration: none;
     margin: 0 5px 0 5px;
@@ -26,11 +32,11 @@
 
 //! HOME & ABOUT
 .about-wrap {
-  margin: 15px;
+  margin: 1rem;
 }
 
 .home-about-wrap {
-  margin: 10px;
+  margin: 1rem;
   .about-h1 {
     margin: 0;
   }
@@ -44,11 +50,11 @@
 
 .home-about-text-wrap {
   margin: 10px;
-  max-width: 300px;
+  max-width: 15rem;
 }
 
 .about-h1 {
-  font-size: 50px;
+  font-size: 4.5rem;
   font-style: italic;
 }
 
@@ -65,13 +71,13 @@
 
 .project-image {
   padding: 20px;
-  max-width: 500px;
+  max-width: 20rem;
 }
 
 .project-title {
   display: flex;
   justify-content: center;
-  font-size: 50px;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -87,7 +93,7 @@
 }
 
 .projects-h1 {
-  font-size: 70px;
+  font-size: 4.5rem;
   font-style: italic;
 }
 
@@ -104,11 +110,11 @@
 }
 
 .photography-image {
-  max-width: 500px;
+  max-width: 20rem;
 }
 
 .photography-h1 {
-  font-size: 70px;
+  font-size: 4rem;
   font-style: italic;
 }
 
@@ -123,4 +129,23 @@
 .contact-text-wrap {
   justify-content: center;
   display: flex;
+}
+
+.contact-h1 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+
+
+
+@media screen and (max-width: 770px) {
+  section.wrapper {
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .projects-images-row {
+    display: flex;
+    flex-direction: column;
+  }
 }
