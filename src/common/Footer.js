@@ -8,10 +8,10 @@ class Footer extends React.Component {
     return (
       <nav className="navbar">
         <div className="navbar wrap">
-        | <Link to="/Home" className="navbar-item">Home</Link> |
-        <Link to="/Portfolio" className="navbar-item">Portfolio</Link> |
-        <Link to="/About" className="navbar-item">About</Link> |
-        <Link to="/Contact" className="navbar-item">Contact</Link> |
+        <Link to="/Home" className="navbar-item">Home</Link> 
+        <Link to="/Portfolio" className="navbar-item">Portfolio</Link> 
+        <Link to="/About" className="navbar-item">About</Link> 
+        <Link to="/Contact" className="navbar-item">Contact</Link> 
         </div>
       </nav >
     )
