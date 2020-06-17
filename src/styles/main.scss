@@ -8,14 +8,24 @@
 .portfolio-title-wrap {
   display: flex;
   justify-content: center;
+  align-content: center;
   font-size: 4rem;
   font-weight: bold;
+  margin: 2rem;
+  @media screen and (max-width: 770px) {
+    font-size: 3rem;
+  }
 }
 
 //! WRAPPER
 .wrapper {
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 770px) { 
+    flex-direction: column !important;
+    align-items: center;
+  }
 }
 
 
@@ -28,7 +38,12 @@
     text-decoration: none;
     margin: 0 5px 0 5px;
   }
-}
+  .navbar-item:hover {
+    font-style: italic;
+  } 
+
+  }
+
 
 //! HOME & ABOUT
 .about-wrap {
@@ -61,6 +76,11 @@
 //! PROJECTS
 .projects-images-row {
   display: flex;
+
+  @media screen and (max-width: 770px) { 
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .projects-images {
@@ -139,13 +159,4 @@
 
 
 
-@media screen and (max-width: 770px) {
-  section.wrapper {
-    flex-direction: column !important;
-    align-items: center;
-  }
-  .projects-images-row {
-    display: flex;
-    flex-direction: column;
-  }
-}
+
