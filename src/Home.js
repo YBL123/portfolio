@@ -100,6 +100,10 @@ const Home = () => (
 
     </div>
 
+    <div className="project-three-and-two-wrap">
+
+      <div>
+
     <div className="projects-header-wrap">
       <h1 className="project-title-project-three">plntify</h1>
     </div>
@@ -117,15 +121,31 @@ const Home = () => (
         <h3>React, Express, Node.js, MongoDB, Sass</h3>
       </div>
 
+      </div>
 
+      <div> 
 
-      <div className="projects-image-title-wrap">
-        <h1 className="project-title">Sorting Hat</h1>
-        <img className="project-image" src={two} alt="two" />
-        <img className="project-image" src={quiz} alt="two quiz" />
-        <img className="project-image" src={getresult} alt="two get result" />
-        <img className="project-image" src={result} alt="two result" />
-        <h3>React, Sass, Express, Node.js</h3>
+      <div className="projects-header-wrap">
+        <h1 className="project-title-project-two">Sorting Hat</h1>
+      </div>
+
+      <div className="project-two-section-div">
+
+        <div className="project-two-column-one">
+          <img className="project-image" src={two} alt="two" />
+          <img className="project-image" src={quiz} alt="two quiz" />
+        </div>
+
+        <div className="project-two-column-two">
+          <img className="project-image" src={getresult} alt="two get result" />
+          <img className="project-image" src={result} alt="two result" />
+          <h3>React, Sass, Express, Node.js</h3>
+        </div>
+
+        </div>
+
+        </div>
+
       </div>
     </div>
 
