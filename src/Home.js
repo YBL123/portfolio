@@ -23,7 +23,7 @@ import Slideshow from './common/Slideshow'
 
 const Home = () => (
   <>
-    <section className="wrapper">
+    <section className="about-project-one-wrapper">
 
       <div className="about-wrap">
         <div className="home-about-wrap">
@@ -48,53 +48,51 @@ const Home = () => (
           <h1 className="projects-h1">Projects</h1>
         </div>
 
-          <div className="projects-one-section-div"> 
-
-            <div className="projects-image-title-wrap">
-              <h1 className="project-title-project-one">Flareon Frogger</h1>
+        <div className="projects-one-section-div">
+          <div className="projects-image-title-wrap">
+            <h1 className="project-title-project-one">Flareon Frogger</h1>
+          </div>
+          <div className="project-one-wrap">
+            <div className="project-one-column-one">
+              <img className="project-image" src={one} alt="one" />
+              <img className="project-image" src={onewin} alt="one win" />
+              <h3>HTML5, CSS3, Javascript (ES6)</h3>
             </div>
-            <div className="project-one-wrap">
-              <div className="project-one-column-one">
-                <img className="project-image" src={one} alt="one" />
-                <img className="project-image" src={onewin} alt="one win" />
-                <h3>HTML5, CSS3, Javascript (ES6)</h3>
-              </div>
-              <div className="project-one-column-two">
+            <div className="project-one-column-two">
               <img className="project-image" src={oneplay} alt="one play" />
               <img className="project-image" src={oneover} alt="one over" />
-              </div>
-            </div>
-
-            </div>
-
-            <div className="projects-image-title-wrap">
-              <h1 className="project-title">FAM</h1>
-              <img className="project-image" src={famLogin} alt="four login" />
-              <img className="project-image" src={famHome} alt="four home" />
-              <img className="project-image" src={famIndex} alt="four index" />
-              <img className="project-image" src={famShow} alt="four show" />
-              <img className="project-image" src={famRegister} alt="four register" />
-              <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
-            </div>
-          
-
-
-
-          <div className="projects-images-row">
-            <div className="projects-image-title-wrap">
-              <h1 className="project-title">plntify</h1>
-              <img className="project-image" src={three} alt="three" />
-              <h3>React, Express, Node.js, MongoDB, Sass</h3>
-            </div>
-            <div className="projects-image-title-wrap">
-              <h1 className="project-title">Sorting Hat</h1>
-              <img className="project-image" src={two} alt="two" />
-              <h3>React, Sass, Express, Node.js</h3>
             </div>
           </div>
         </div>
 
+      </div>
+
     </section>
+
+    <div className="projects-four-section-div">
+        {/* <div className="projects-image-title-wrap"> */}
+          <h1 className="project-title-project-four">FAM</h1>
+          <img className="project-image" src={famLogin} alt="four login" />
+          <img className="project-image" src={famHome} alt="four home" />
+          <img className="project-image" src={famIndex} alt="four index" />
+          <img className="project-image" src={famShow} alt="four show" />
+          <img className="project-image" src={famRegister} alt="four register" />
+          <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+        {/* </div> */}
+        </div>
+
+        <div className="projects-images-row">
+          <div className="projects-image-title-wrap">
+            <h1 className="project-title">plntify</h1>
+            <img className="project-image" src={three} alt="three" />
+            <h3>React, Express, Node.js, MongoDB, Sass</h3>
+          </div>
+          <div className="projects-image-title-wrap">
+            <h1 className="project-title">Sorting Hat</h1>
+            <img className="project-image" src={two} alt="two" />
+            <h3>React, Sass, Express, Node.js</h3>
+          </div>
+        </div>
 
     <section className="photography-section">
       <div className="photography-header-wrap">
