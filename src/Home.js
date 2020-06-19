@@ -1,13 +1,23 @@
 import React from 'react'
 
+//! project one - FLAREON FROGGER
 import one from './images/ponee.png'
 import oneplay from './images/poneplay.png'
 import onewin from './images/ponewin.png'
 import oneover from './images/poneover.png'
 
+//! project four - FAM
+import famLogin from './images/fam-login.png'
+import famHome from './images/fam-home.png'
+import famIndex from './images/fam-index.png'
+import famShow from './images/fam-show.png'
+import famRegister from './images/fam-register.png'
+
+
+
 import two from './images/ptwoo.png'
 import three from './images/pthreee.png'
-import four from './images/pfourr.png'
+// import four from './images/pfourr.png'
 
 import Slideshow from './common/Slideshow'
 
@@ -38,10 +48,10 @@ const Home = () => (
           <h1 className="projects-h1">Projects</h1>
         </div>
 
-        <div className="projects-images">
-          <div className="projects-images-row">
+          <div className="projects-one-section-div"> 
+
             <div className="projects-image-title-wrap">
-              <h1 className="project-title">Flareon Frogger</h1>
+              <h1 className="project-title-project-one">Flareon Frogger</h1>
             </div>
             <div className="project-one-wrap">
               <div className="project-one-column-one">
@@ -55,12 +65,21 @@ const Home = () => (
               </div>
             </div>
 
+            </div>
+
             <div className="projects-image-title-wrap">
               <h1 className="project-title">FAM</h1>
-              <img className="project-image" src={four} alt="four" />
+              <img className="project-image" src={famLogin} alt="four login" />
+              <img className="project-image" src={famHome} alt="four home" />
+              <img className="project-image" src={famIndex} alt="four index" />
+              <img className="project-image" src={famShow} alt="four show" />
+              <img className="project-image" src={famRegister} alt="four register" />
               <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
             </div>
-          </div>
+          
+
+
+
           <div className="projects-images-row">
             <div className="projects-image-title-wrap">
               <h1 className="project-title">plntify</h1>
@@ -74,8 +93,6 @@ const Home = () => (
             </div>
           </div>
         </div>
-
-      </div>
 
     </section>
 
