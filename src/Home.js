@@ -82,29 +82,41 @@ const Home = () => (
     </section>
 
     <div className="projects-header-wrap">
-        <h1 className="project-title-project-four">FAM</h1>
-      </div>
+      <h1 className="project-title-project-four">FAM</h1>
+    </div>
 
     <div className="project-four-section-div">
 
-      <img className="project-image" src={famLogin} alt="four login" />
-      <img className="project-image" src={famHome} alt="four home" />
-      <img className="project-image" src={famIndex} alt="four index" />
-      <img className="project-image" src={famShow} alt="four show" />
-      <img className="project-image" src={famRegister} alt="four register" />
-      <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+      <div className="project-four-column-one">
+        <img className="project-four-image" src={famLogin} alt="four login" />
+        <img className="project-four-image" src={famHome} alt="four home" />
+      </div>
+
+      <div className="project-four-column-two">
+        <img className="project-four-image" src={famRegister} alt="four register" />
+        <img className="project-four-image" src={famShow} alt="four show" />
+        <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+      </div>
 
     </div>
 
-    <div className="projects-images-row">
-      <div className="projects-image-title-wrap">
-        <h1 className="project-title-project-3">plntify</h1>
+    <div className="projects-header-wrap">
+      <h1 className="project-title-project-three">plntify</h1>
+    </div>
+
+    <div className="project-three-section-div">
+
+      <div className="project-three-column-one">
         <img className="project-image" src={three} alt="three" />
         <img className="project-image" src={plntifyIndex} alt="three index" />
+      </div>
+
+      <div className="project-three-column-two">
         <img className="project-image" src={plntifyMap} alt="three map" />
         <img className="project-image" src={plntifyShow} alt="three show" />
         <h3>React, Express, Node.js, MongoDB, Sass</h3>
       </div>
+
 
 
       <div className="projects-image-title-wrap">
