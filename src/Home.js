@@ -95,7 +95,7 @@ const Home = () => (
       <div className="project-four-column-two">
         <img className="project-four-image" src={famRegister} alt="four register" />
         <img className="project-four-image" src={famShow} alt="four show" />
-        <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+        <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
       </div>
 
     </div>
