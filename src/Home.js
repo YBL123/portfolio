@@ -1,6 +1,6 @@
 import React from 'react'
 
-import techIcons from './common/TechIcons'
+import TechIcons from './common/TechIcons'
 import Slideshow from './common/Slideshow'
 
 //! project one - FLAREON FROGGER
@@ -16,12 +16,17 @@ import famIndex from './images/fam-index.png'
 import famShow from './images/fam-show.png'
 import famRegister from './images/fam-register.png'
 
-
-
-import two from './images/ptwoo.png'
+//! project three - PLNTIFY
 import three from './images/pthreee.png'
-import TechIcons from './common/TechIcons'
-// import four from './images/pfourr.png'
+import plntifyIndex from './images/plntify-index.png'
+import plntifyMap from './images/plntify-map.png'
+import plntifyShow from './images/plntify-show.png'
+
+//! project two - SORTING HAT
+import two from './images/ptwoo.png'
+import quiz from './images/quiz.png'
+import getresult from './images/getresult.png'
+import result from './images/result.png'
 
 
 
@@ -45,7 +50,6 @@ const Home = () => (
             My goal is to find a role where I can be a part of a team and continue to learn, expand and develop my skills as a Junior Software Engineer.</p>
         </div>
 
-        <h1 className="project-title-project-four">ICON IMAGES HERE</h1>
         <TechIcons />
 
       </div>
@@ -77,30 +81,41 @@ const Home = () => (
 
     </section>
 
-    <div className="projects-four-section-div">
-        {/* <div className="projects-image-title-wrap"> */}
-          <h1 className="project-title-project-four">FAM</h1>
-          <img className="project-image" src={famLogin} alt="four login" />
-          <img className="project-image" src={famHome} alt="four home" />
-          <img className="project-image" src={famIndex} alt="four index" />
-          <img className="project-image" src={famShow} alt="four show" />
-          <img className="project-image" src={famRegister} alt="four register" />
-          <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
-        {/* </div> */}
-        </div>
+    <div className="projects-header-wrap">
+        <h1 className="project-title-project-four">FAM</h1>
+      </div>
 
-        <div className="projects-images-row">
-          <div className="projects-image-title-wrap">
-            <h1 className="project-title">plntify</h1>
-            <img className="project-image" src={three} alt="three" />
-            <h3>React, Express, Node.js, MongoDB, Sass</h3>
-          </div>
-          <div className="projects-image-title-wrap">
-            <h1 className="project-title">Sorting Hat</h1>
-            <img className="project-image" src={two} alt="two" />
-            <h3>React, Sass, Express, Node.js</h3>
-          </div>
-        </div>
+    <div className="project-four-section-div">
+
+      <img className="project-image" src={famLogin} alt="four login" />
+      <img className="project-image" src={famHome} alt="four home" />
+      <img className="project-image" src={famIndex} alt="four index" />
+      <img className="project-image" src={famShow} alt="four show" />
+      <img className="project-image" src={famRegister} alt="four register" />
+      <h3>Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+
+    </div>
+
+    <div className="projects-images-row">
+      <div className="projects-image-title-wrap">
+        <h1 className="project-title-project-3">plntify</h1>
+        <img className="project-image" src={three} alt="three" />
+        <img className="project-image" src={plntifyIndex} alt="three index" />
+        <img className="project-image" src={plntifyMap} alt="three map" />
+        <img className="project-image" src={plntifyShow} alt="three show" />
+        <h3>React, Express, Node.js, MongoDB, Sass</h3>
+      </div>
+
+
+      <div className="projects-image-title-wrap">
+        <h1 className="project-title">Sorting Hat</h1>
+        <img className="project-image" src={two} alt="two" />
+        <img className="project-image" src={quiz} alt="two quiz" />
+        <img className="project-image" src={getresult} alt="two get result" />
+        <img className="project-image" src={result} alt="two result" />
+        <h3>React, Sass, Express, Node.js</h3>
+      </div>
+    </div>
 
     <section className="photography-section">
       <div className="photography-header-wrap">

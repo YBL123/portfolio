@@ -132,11 +132,6 @@
   }
 }
 
-.icon {
-  width: 4rem;
-  margin: 0.5rem;
-}
-
 //! PROJECTS
 .projects-images-row {
   display: flex;
@@ -193,8 +188,23 @@
 }
 
 .project-title-project-four {
-  justify-content: center;
   display: flex;
+  justify-content: center;
+}
+
+.project-title-project-3 {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.project-four-section-div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  @media screen and (max-width: 375px) { 
+    margin: 2.5rem;
+    }
 }
 
 .projects-header-wrap {
@@ -315,3 +325,16 @@ div.react-slideshow-container .nav:first-of-type {
   font-weight: bold;
 }
 
+
+
+//! icons 
+.tech-icon-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.icon {
+  width: 3.5rem;
+  margin: 0.5rem;
+}
