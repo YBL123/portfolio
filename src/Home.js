@@ -1,5 +1,8 @@
 import React from 'react'
 
+import techIcons from './common/TechIcons'
+import Slideshow from './common/Slideshow'
+
 //! project one - FLAREON FROGGER
 import one from './images/ponee.png'
 import oneplay from './images/poneplay.png'
@@ -17,9 +20,10 @@ import famRegister from './images/fam-register.png'
 
 import two from './images/ptwoo.png'
 import three from './images/pthreee.png'
+import TechIcons from './common/TechIcons'
 // import four from './images/pfourr.png'
 
-import Slideshow from './common/Slideshow'
+
 
 const Home = () => (
   <>
@@ -42,6 +46,7 @@ const Home = () => (
         </div>
 
         <h1 className="project-title-project-four">ICON IMAGES HERE</h1>
+        <TechIcons />
 
       </div>
 
