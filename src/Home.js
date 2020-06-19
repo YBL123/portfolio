@@ -40,6 +40,9 @@ const Home = () => (
           <p className="home-about-text">
             My goal is to find a role where I can be a part of a team and continue to learn, expand and develop my skills as a Junior Software Engineer.</p>
         </div>
+
+        <h1 className="project-title-project-four">ICON IMAGES HERE</h1>
+
       </div>
 
       <div className="projects-wrap">
