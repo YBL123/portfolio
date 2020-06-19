@@ -37,7 +37,7 @@ const Slideshow = () => {
             <img className="slide-image" src={photo3} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Michael Chima</h2>
+          <h2 className="slideshow-h2">Michael Chima</h2>
           </div>
 
         </div>
@@ -46,7 +46,7 @@ const Slideshow = () => {
             <img className="slide-image" src={photo4} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Michael Chima</h2>
+          <h2 className="slideshow-h2">Michael Chima</h2>
           </div>
         </div>
 
@@ -55,7 +55,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo5} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Bruna Di</h2>
+          <h2 className="slideshow-h2">Bruna Di</h2>
           </div>
         </div>
 
@@ -64,7 +64,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo6} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Bruna Di</h2>
+          <h2 className="slideshow-h2">Bruna Di</h2>
           </div>
         </div>
 
@@ -73,7 +73,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo7} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Michael Chima</h2>
+          <h2 className="slideshow-h2">Michael Chima</h2>
           </div>
         </div>
 
@@ -82,7 +82,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo8} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Bruna Di</h2>
+          <h2 className="slideshow-h2">Bruna Di</h2>
           </div>
         </div>
 
@@ -91,7 +91,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo9} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Michael Chima</h2>
+          <h2 className="slideshow-h2">Michael Chima</h2>
           </div>
         </div>
 
@@ -100,7 +100,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo10} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Bruna Di</h2>
+          <h2 className="slideshow-h2">Bruna Di</h2>
           </div>
         </div>
 
@@ -109,7 +109,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo11} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2>Michael Chima</h2>
+          <h2 className="slideshow-h2">Michael Chima</h2>
           </div>
         </div>
 
