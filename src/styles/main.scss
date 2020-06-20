@@ -108,7 +108,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 60vh;
+  // height: 60vh;
 }
 
 .home-about-text-wrap {
@@ -131,6 +131,7 @@
 
 .about-page-text-wrap {
   max-width: 50rem;
+  font-family: 'Spectral SC', serif;
   @media screen and (max-width: 375px) { 
     max-width: 20rem !important;
   }
