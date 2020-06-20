@@ -68,11 +68,12 @@ const Home = () => (
             <div className="project-one-column-one">
               <img className="project-image" src={one} alt="one" />
               <img className="project-image" src={onewin} alt="one win" />
-              <h3>HTML5, CSS3, Javascript (ES6)</h3>
+              <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
             </div>
             <div className="project-one-column-two">
               <img className="project-image" src={oneplay} alt="one play" />
               <img className="project-image" src={oneover} alt="one over" />
+              <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
             </div>
           </div>
         </div>
