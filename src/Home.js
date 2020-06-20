@@ -12,7 +12,6 @@ import oneover from './images/poneover.png'
 //! project four - FAM
 import famLogin from './images/fam-login.png'
 import famHome from './images/fam-home.png'
-import famIndex from './images/fam-index.png'
 import famShow from './images/fam-show.png'
 import famRegister from './images/fam-register.png'
 

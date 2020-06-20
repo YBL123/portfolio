@@ -211,8 +211,11 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   @media screen and (max-width: 375px) { 
-    margin: 2.5rem .5rem .5rem;
-    font-size: 3rem;
+    margin: 2.5rem 2rem .5rem;
+    font-size: 2.5rem;
+    font-family: 'Cardo', serif;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
   }
 }
 
@@ -222,6 +225,13 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   margin-top: 4rem;
+  @media screen and (max-width: 375px) { 
+    margin: 2.5rem 2rem .5rem;
+    font-size: 2.5rem;
+    font-family: 'Cardo', serif;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .project-title-project-three {
@@ -230,6 +240,9 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   margin-top: 4rem;
+  @media screen and (max-width: 375px) { 
+    margin-bottom: 0.5rem;
+    }
 }
 
 .project-title-project-two {
@@ -238,6 +251,9 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   margin-top: 4rem;
+  @media screen and (max-width: 375px) { 
+    margin-bottom: 0.5rem;
+    }
 }
 
 .project-four-section-div {
@@ -245,7 +261,8 @@
   justify-content: center;
   flex-wrap: wrap;
   @media screen and (max-width: 375px) { 
-    margin: 2.5rem;
+    // margin: 2.5rem;
+    margin: 0
     }
 }
 .project-four-column-one {
@@ -330,6 +347,31 @@ h3 {
   font-style: italic;
   margin-top: 3rem;
   margin-bottom: 0;
+}
+
+//! PORTFOLIO PAGE 
+.portfolio-page-wrap {
+  display: flex;
+  justify-content: center;
+  margin-left: 10rem;
+  @media screen and (max-width: 375px) { 
+    margin-right: 0 !important;
+    margin-left: 0;
+  }
+}
+
+.portfolio-page-project-title-project-one {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.portfolio-page-projects-h1 {
+  font-size: 5rem;
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 //! PHOTORAPHY
