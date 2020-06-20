@@ -56,7 +56,10 @@
   font-weight: bold;
   .navbar-item {
     text-decoration: none;
-    margin: 0 5px 0 5px;
+    margin: 0 35px 0 5px;
+    @media screen and (max-width: 375px) { 
+      margin: 0px 5px 0 5px;
+    }
   }
   .navbar-item:hover {
     font-style: italic;
