@@ -382,8 +382,10 @@ h3 {
   justify-content: center;
   margin-left: 10rem;
   @media screen and (max-width: 375px) { 
+    margin-left: 3rem;
+  }
+  @media screen and (max-width: 770px) { 
     margin-right: 0 !important;
-    margin-left: 0;
   }
 }
 
@@ -399,6 +401,9 @@ h3 {
   font-style: italic;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  @media screen and (max-width: 1025px) { 
+    margin-right: 10rem;
+  }
 }
 
 //! PHOTORAPHY
