@@ -28,7 +28,8 @@ import result from './images/result.png'
 
 const Portfolio = () => (
   <>
-  <section className="portfolio-page-wrap">
+  <section data-aos="fade-up"
+    data-aos-anchor-placement="top-bottom" className="portfolio-page-wrap">
     <div className="projects-wrap">
 
       <div className="projects-header-wrap">

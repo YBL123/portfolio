@@ -3,7 +3,8 @@ import React from 'react'
 // * Our basic home page
 
 const About = () => (
-  <section className="about-page-wrap">
+  <section data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" className="about-page-wrap">
 
     <div className="home-about-wrap">
     <h1 className="about-h1">About</h1>

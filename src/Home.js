@@ -31,7 +31,8 @@ import result from './images/result.png'
 
 const Home = () => (
   <>
-    <section className="about-project-one-wrapper">
+    <section data-aos="fade-up"
+  data-aos-anchor-placement="top-bottom" className="about-project-one-wrapper">
 
       <div className="about-wrap">
         <div className="home-about-wrap">
