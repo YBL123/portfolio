@@ -216,7 +216,7 @@
     text-decoration: none;
     color: white;
   }
-  @media screen and (min-width: 376px) { 
+  @media screen and (min-width: 415px) { 
     display:none;
   }
 }
@@ -429,7 +429,7 @@ h3 {
 .slide-image {
   max-width: 25rem;
   justify-content: center;
-  @media screen and (max-width: 380px) { 
+  @media screen and (max-width: 415px) { 
     max-width: 13rem !important;
   }
 }
@@ -496,14 +496,14 @@ h3 {
 .slide-container {
   max-width: 33rem;
   margin: auto; 
-  @media screen and (max-width: 380px) { 
+  @media screen and (max-width: 415px) { 
     max-width: 20rem !important;
   }
 }
   
 div.react-slideshow-container .nav:first-of-type {
   margin-right: 2.5rem !important;
-  @media screen and (max-width: 370px) { 
+  @media screen and (max-width: 415px) { 
     margin-right: 0 !important;
   }
 }
@@ -539,73 +539,6 @@ div.react-slideshow-container .nav:first-of-type {
   width: 3.5rem;
   margin: 0.5rem;
 }
-
-
-
-
-
-
-
-// //! contact animation
-
-// $speed: 0.5s;
-
-// .btn-flip {
-//     opacity: 1;
-//     outline: 0;
-//     color: #fff;
-//     line-height: 40px;
-//     position: relative;
-//     text-align: center;
-//     font-size: 1rem;
-//     letter-spacing: 1px;
-//     display: inline-block;
-//     text-decoration: none;
-    
-//     &:hover{
-        
-//         &:after{
-//             opacity: 1;
-//             transform: translateY(0) rotateX(0);
-//         }
-        
-//         &:before{
-//             opacity: 0;
-//             transform: translateY(50%) rotateX(90deg);
-//         }
-//     }
-    
-//     &:after{
-//         top: 0;
-//         left: 0;
-//         opacity: 0;
-//         width: 100%;
-//         color: white;
-//         display: block;
-//         transition: $speed;
-//         position: absolute;
-//         background: black;
-//         content: attr(data-back);
-//         transform: translateY(-50%) rotateX(90deg);
-//         border-radius: 3rem;
-//     }
-    
-//     &:before{
-//         top: 0;
-//         left: 0;
-//         opacity: 1;
-//         color: black;
-//         border: 1px solid black;
-//         border-radius: 3rem;
-//         display: block;
-//         padding: 0 30px;
-//         line-height: 40px;
-//         transition: $speed;
-//         position: relative;
-//         content: attr(data-front);
-//         transform: translateY(0) rotateX(0);
-//     }
-// }
 
 
 
