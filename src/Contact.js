@@ -14,7 +14,7 @@ const Contact = () => (
       <div className="email-wrap">
         <div class="button-container-1 contact-button">
           <span class="mas">yardenlawson@gmail.com</span>
-          <button id='work' type="button" name="Hover"><a className="email-link"  target="email" href="yardenlawson@gmail.com">yardenlawson@gmail.com</a></button>
+          <button id='work' type="button" name="Hover"><a className="email-link"  target="email" href="mailto:yardenlawson@gmail.com">yardenlawson@gmail.com</a></button>
         </div>
       </div>
 
