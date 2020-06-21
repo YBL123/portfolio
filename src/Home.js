@@ -75,8 +75,9 @@ const Home = () => (
 
                   <div class="button-container-1">
                     <span class="mas">Open Project</span>
-                    <button id='work' type="button" name="Hover">Open Project</button>
+                    <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
                   </div>
+
                   <div class="button-container-1">
                     <span class="mas">View On Github</span>
                     <button id='work' type="button" name="Hover">View On Github</button>
@@ -84,8 +85,6 @@ const Home = () => (
 
                   </div>
 
-                  {/* <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a> */}
-                  {/* <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">View On Github </a> */}
                   <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
 
@@ -98,8 +97,21 @@ const Home = () => (
 
               <div className="project-one-h3-small-screen">
                 <div className="link-buttons">
-                  <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a>
-                  <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">View On Github</a>
+
+                  <div className="link-buttons-wrap">
+
+                  <div class="button-container-1">
+                    <span class="mas">Open Project</span>
+                    <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
+                  </div>
+
+                  <div class="button-container-1">
+                    <span class="mas">View On Github</span>
+                    <button id='work' type="button" name="Hover">View On Github</button>
+                  </div>
+
+                  </div>
+                  
                   <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
 

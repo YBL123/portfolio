@@ -200,14 +200,7 @@
   align-items: center;
   a {
     text-decoration: none;
-    color: black;
-    font-family: 'Lobster', cursive;
-    font-size: 1.2rem;
-    border-radius: 3rem;
-    border: 0.1rem solid black;
-  }
-  a:hover {
-    font-size: 2rem;
+    color: white;
   }
   @media screen and (max-width: 375px) { 
     display: none;
@@ -221,14 +214,7 @@
   text-decoration: none;
   a {
     text-decoration: none;
-    color: black;
-    font-family: 'Lobster', cursive;
-    font-size: 1.2rem;
-    border-radius: 3rem;
-    border: 0.1rem solid black;
-  }
-  a:hover {
-    font-size: 2rem;
+    color: white;
   }
   @media screen and (min-width: 376px) { 
     display:none;
