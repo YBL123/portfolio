@@ -251,14 +251,7 @@ const Home = () => (
                   <h3>React, Sass, Express, Node.js</h3>
                 </div>
 
-
-
-
-
               </div>
-
-
-
 
             </div>
 

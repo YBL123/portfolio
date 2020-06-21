@@ -11,24 +11,16 @@ const Contact = () => (
 
     <div className="contact-button-wrap">
 
-<div className="link-buttons-project-4">
-
-  <div className="link-buttons-wrap">
-
-    <div class="button-container-1">
-      <span class="mas">yardenlawson@gmail.com</span>
-      <button id='work' type="button" name="Hover"><a target="fam" href="yardnelawson@gmail.com">yardenlawson@gmail.com</a></button>
-    </div>
-
-  </div>
-
-</div>
-
-
+      <div className="email-wrap">
+        <div class="button-container-1 contact-button">
+          <span class="mas">yardenlawson@gmail.com</span>
+          <button id='work' type="button" name="Hover"><a className="email-link"  target="email" href="yardenlawson@gmail.com">yardenlawson@gmail.com</a></button>
+        </div>
+      </div>
 
     </div>
 
-  </section>
+  </section >
 )
 
 export default Contact
