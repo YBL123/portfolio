@@ -36,104 +36,216 @@ const Portfolio = () => (
       </div>
 
       <div className="projects-one-section-div">
-        <div className="projects-image-title-wrap">
-          <h1 className="portfolio-page-project-title-project-one">Flareon Frogger</h1>
-        </div>
-        <div className="project-one-wrap">
-          <div className="project-one-column-one">
-            <img className="project-image" src={one} alt="one" />
-            <img className="project-image" src={onewin} alt="one win" />
-            <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+          <div className="projects-image-title-wrap">
+            <h1 className="project-title-project-one">Flareon Frogger</h1>
           </div>
-          <div className="project-one-column-two">
-            <img className="project-image" src={oneplay} alt="one play" />
-            <img className="project-image" src={oneover} alt="one over" />
-            <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
+          <div className="project-one-wrap">
+            <div className="project-one-column-one">
+              <img className="project-image" src={one} alt="one" />
+              <img className="project-image" src={onewin} alt="one win" />
+              <div className="project-one-h3-big-screen">
+
+                <div className="link-buttons">
+
+                  <div className="link-buttons-wrap">
+
+                    <div class="button-container-1">
+                      <span class="mas">Open Project</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
+                    </div>
+
+                    <div class="button-container-1">
+                      <span class="mas">View On Github</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one">View On Github</a></button>
+                    </div>
+
+                  </div>
+
+                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                </div>
+
+              </div>
+            </div>
+
+            <div className="project-one-column-two">
+              <img className="project-image" src={oneplay} alt="one play" />
+              <img className="project-image" src={oneover} alt="one over" />
+
+              <div className="project-one-h3-small-screen">
+
+                <div className="link-buttons">
+
+                  <div className="link-buttons-wrap">
+
+                    <div class="button-container-1">
+                      <span class="mas">Open Project</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
+                    </div>
+
+                    <div class="button-container-1">
+                      <span class="mas">View On Github</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one">View On Github</a></button>
+                    </div>
+
+                  </div>
+
+                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
 
+    </section>
+
+    <div className="projects-header-wrap">
+      <h1 className="project-title-project-four">FAM</h1>
     </div>
 
-  </section>
+    <div className="project-four-section-div">
 
-  <div className="projects-header-wrap">
-    <h1 className="project-title-project-four">FAM</h1>
-  </div>
-
-  <div className="project-four-section-div">
-
-    <div className="project-four-column-one">
-      <img className="project-four-image" src={famLogin} alt="four login" />
-      <img className="project-four-image" src={famHome} alt="four home" />
-    </div>
-
-    <div className="project-four-column-two">
-      <img className="project-four-image" src={famRegister} alt="four register" />
-      <img className="project-four-image" src={famShow} alt="four show" />
-      <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
-    </div>
-
-  </div>
-
-  <div className="project-three-and-two-wrap">
-
-    <div>
-
-      <div className="projects-header-wrap">
-        <h1 className="project-title-project-three">plntify</h1>
+      <div className="project-four-column-one">
+        <img className="project-four-image" src={famLogin} alt="four login" />
+        <img className="project-four-image" src={famHome} alt="four home" />
       </div>
 
-      <div className="project-three-section-div">
+      <div className="project-four-column-two">
+        <img className="project-four-image" src={famRegister} alt="four register" />
+        <img className="project-four-image" src={famShow} alt="four show" />
 
-        <div className="project-three-column-one">
-          <img className="project-image" src={three} alt="three" />
-          <img className="project-image" src={plntifyIndex} alt="three index" />
+        <div className="project-all-apart-from-one-h3">
+
+          <div className="link-buttons-project-all-apart-from-one">
+
+            <div className="link-buttons-wrap">
+
+              <div class="button-container-1">
+                <span class="mas">Open Project</span>
+                <button id='work' type="button" name="Hover"><a target="fam" href="https://the-fam.herokuapp.com/">Open Project</a></button>
+              </div>
+
+              <div class="button-container-1">
+                <span class="mas">View On Github</span>
+                <button id='work' type="button" name="Hover"><a target="fam" href="https://github.com/YBL123/sei-project-4">View On Github</a></button>
+              </div>
+
+            </div>
+
+            <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+          </div>
+
         </div>
 
-        <div className="project-three-column-two">
-          <img className="project-image" src={plntifyMap} alt="three map" />
-          <img className="project-image" src={plntifyShow} alt="three show" />
-          <h3>React, Express, Node.js, MongoDB, Sass</h3>
-        </div>
 
       </div>
+
+    </div>
+
+    <div className="project-three-and-two-wrap">
 
       <div>
 
         <div className="projects-header-wrap">
-          <h1 className="project-title-project-two">Sorting Hat</h1>
+          <h1 className="project-title-project-three">plntify</h1>
         </div>
 
-        <div className="project-two-section-div">
+        <div className="project-three-section-div">
 
-          <div className="project-two-column-one">
-            <img className="project-image" src={two} alt="two" />
-            <img className="project-image" src={quiz} alt="two quiz" />
+          <div className="project-three-column-one">
+            <img className="project-image" src={three} alt="three" />
+            <img className="project-image" src={plntifyIndex} alt="three index" />
           </div>
 
-          <div className="project-two-column-two">
-            <img className="project-image" src={getresult} alt="two get result" />
-            <img className="project-image" src={result} alt="two result" />
-            <h3>React, Sass, Express, Node.js</h3>
+          <div className="project-three-column-two">
+            <img className="project-image" src={plntifyMap} alt="three map" />
+            <img className="project-image" src={plntifyShow} alt="three show" />
+
+            <div className="project-all-apart-from-one-h3">
+
+              <div className="link-buttons-project-all-apart-from-one">
+
+                <div className="link-buttons-wrap">
+
+                  <div class="button-container-1">
+                    <span class="mas">Open Project</span>
+                    <button id='work' type="button" name="Hover"><a target="plntify" href="http://plntify-app.herokuapp.com/">Open Project</a></button>
+                  </div>
+
+                  <div class="button-container-1">
+                    <span class="mas">View On Github</span>
+                    <button id='work' type="button" name="Hover"><a target="plntify" href="https://github.com/YBL123/sei-group-project">View On Github</a></button>
+                  </div>
+
+                </div>
+                <h3>React, Express, Node.js, MongoDB, Sass</h3>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div>
+
+          <div className="projects-header-wrap">
+            <h1 className="project-title-project-two">Sorting Hat</h1>
+          </div>
+
+          <div className="project-two-section-div">
+
+            <div className="project-two-column-one">
+              <img className="project-image" src={two} alt="two" />
+              <img className="project-image" src={quiz} alt="two quiz" />
+            </div>
+
+            <div className="project-two-column-two">
+              <img className="project-image" src={getresult} alt="two get result" />
+              <img className="project-image" src={result} alt="two result" />
+
+
+              <div className="project-all-apart-from-one-h3">
+
+                <div className="link-buttons-project-all-apart-from-one">
+
+                  <div className="link-buttons-wrap">
+
+                    <div class="button-container-1">
+                      <span class="mas">Open Project</span>
+                      <button id='work' type="button" name="Hover"><a target="plntify" href="https://harry-potter-sorting-hat.netlify.app/">Open Project</a></button>
+                    </div>
+
+                    <div class="button-container-1">
+                      <span class="mas">View On Github</span>
+                      <button id='work' type="button" name="Hover"><a target="plntify" href="https://github.com/YBL123/project-2">View On Github</a></button>
+                    </div>
+
+                  </div>
+                  <h3>React, Sass, Express, Node.js</h3>
+                </div>
+
+              </div>
+
+            </div>
+
           </div>
 
         </div>
 
       </div>
-
     </div>
-  </div>
 
-  <section className="photography-section">
-    <div className="photography-header-wrap">
-      <h1 className="photography-h1">Photography</h1>
-    </div>
-    <div className="photography-images-row">
-      <Slideshow />
-    </div>
-  </section>
-
+    <section className="photography-section">
+      <div className="photography-header-wrap">
+        <h1 className="photography-h1">Photography</h1>
+      </div>
+      <div className="photography-images-row">
+        <Slideshow />
+      </div>
+    </section>
   </>
 )
 
