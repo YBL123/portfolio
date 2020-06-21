@@ -73,15 +73,15 @@ const Home = () => (
 
                   <div className="link-buttons-wrap">
 
-                  <div class="button-container-1">
-                    <span class="mas">Open Project</span>
-                    <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
-                  </div>
+                    <div class="button-container-1">
+                      <span class="mas">Open Project</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
+                    </div>
 
-                  <div class="button-container-1">
-                    <span class="mas">View On Github</span>
-                    <button id='work' type="button" name="Hover">View On Github</button>
-                  </div>
+                    <div class="button-container-1">
+                      <span class="mas">View On Github</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one">View On Github</a></button>
+                    </div>
 
                   </div>
 
@@ -96,23 +96,24 @@ const Home = () => (
               <img className="project-image" src={oneover} alt="one over" />
 
               <div className="project-one-h3-small-screen">
+
                 <div className="link-buttons">
 
                   <div className="link-buttons-wrap">
 
-                  <div class="button-container-1">
-                    <span class="mas">Open Project</span>
-                    <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
+                    <div class="button-container-1">
+                      <span class="mas">Open Project</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
+                    </div>
+
+                    <div class="button-container-1">
+                      <span class="mas">View On Github</span>
+                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one">View On Github</a></button>
+                    </div>
+
                   </div>
 
-                  <div class="button-container-1">
-                    <span class="mas">View On Github</span>
-                    <button id='work' type="button" name="Hover">View On Github</button>
-                  </div>
-
-                  </div>
-                  
-                  <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
 
               </div>
@@ -138,7 +139,31 @@ const Home = () => (
       <div className="project-four-column-two">
         <img className="project-four-image" src={famRegister} alt="four register" />
         <img className="project-four-image" src={famShow} alt="four show" />
-        <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+
+        <div className="project-one-h3-big-screen">
+
+          <div className="link-buttons-project-4">
+
+            <div className="link-buttons-wrap">
+
+              <div class="button-container-1">
+                <span class="mas">Open Project</span>
+                <button id='work' type="button" name="Hover"><a target="fam" href="https://the-fam.herokuapp.com/">Open Project</a></button>
+              </div>
+
+              <div class="button-container-1">
+                <span class="mas">View On Github</span>
+                <button id='work' type="button" name="Hover"><a target="fam" href="https://github.com/YBL123/sei-project-4">View On Github</a></button>
+              </div>
+
+            </div>
+
+            <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+          </div>
+
+        </div>
+
+
       </div>
 
     </div>

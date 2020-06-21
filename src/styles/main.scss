@@ -564,10 +564,18 @@ $speed: 0.5s;
 
 
 //! link button animation
+.link-buttons-project-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .link-buttons-wrap{
   display: flex;
 }    
 
+
+//! starts here
 * {
   margin: 0;
   padding: 0;
