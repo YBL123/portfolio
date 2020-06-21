@@ -34,9 +34,9 @@ const Home = () => (
     <section data-aos="fade-up"
   data-aos-anchor-placement="top-bottom" className="about-project-one-wrapper">
 
-      <div className="about-wrap">
+      <div data-aos="fade-up" className="about-wrap">
         <div className="home-about-wrap">
-          <h1 className="about-h1">About</h1>
+          <h1 data-aos="zoom-in" className="about-h1">About</h1>
         </div>
 
         <div className="home-about-text-wrap">
@@ -57,10 +57,10 @@ const Home = () => (
       <div className="projects-wrap">
 
         <div className="projects-header-wrap">
-          <h1 className="projects-h1">Projects</h1>
+          <h1 data-aos="zoom-in" className="projects-h1">Projects</h1>
         </div>
 
-        <div className="projects-one-section-div">
+        <div data-aos="fade-up" className="projects-one-section-div">
           <div className="projects-image-title-wrap">
             <h1 className="project-title-project-one">Flareon Frogger</h1>
           </div>
@@ -130,7 +130,7 @@ const Home = () => (
       <h1 className="project-title-project-four">FAM</h1>
     </div>
 
-    <div className="project-four-section-div">
+    <div data-aos="fade-up" className="project-four-section-div">
 
       <div className="project-four-column-one">
         <img className="project-four-image" src={famLogin} alt="four login" />
@@ -177,7 +177,7 @@ const Home = () => (
           <h1 className="project-title-project-three">plntify</h1>
         </div>
 
-        <div className="project-three-section-div">
+        <div data-aos="fade-up" className="project-three-section-div">
 
           <div className="project-three-column-one">
             <img className="project-image" src={three} alt="three" />
@@ -220,7 +220,7 @@ const Home = () => (
             <h1 className="project-title-project-two">Sorting Hat</h1>
           </div>
 
-          <div className="project-two-section-div">
+          <div data-aos="fade-up" className="project-two-section-div">
 
             <div className="project-two-column-one">
               <img className="project-image" src={two} alt="two" />
@@ -265,7 +265,7 @@ const Home = () => (
 
     <section className="photography-section">
       <div className="photography-header-wrap">
-        <h1 className="photography-h1">Photography</h1>
+        <h1 data-aos="zoom-in" className="photography-h1">Photography</h1>
       </div>
       <div className="photography-images-row">
         <Slideshow />

@@ -10,7 +10,7 @@ const Contact = () => (
   data-aos-anchor-placement="top-bottom" className="contact-section">
 
     <div className="contact-wrap">
-      <h1 className="contact-h1">Contact</h1>
+      <h1 data-aos="zoom-in-up" className="contact-h1">Contact</h1>
     </div>
 
     <div className="contact-button-wrap">

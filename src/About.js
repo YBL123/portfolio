@@ -7,7 +7,7 @@ const About = () => (
   data-aos-anchor-placement="top-bottom" className="about-page-wrap">
 
     <div className="home-about-wrap">
-    <h1 className="about-h1">About</h1>
+    <h1 data-aos="zoom-in-up" className="about-h1">About</h1>
     </div>
 
     <div className="about-page-text-wrap">

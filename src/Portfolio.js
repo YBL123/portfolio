@@ -33,10 +33,10 @@ const Portfolio = () => (
     <div className="projects-wrap">
 
       <div className="projects-header-wrap">
-        <h1 className="portfolio-page-projects-h1">Projects</h1>
+        <h1 data-aos="zoom-in-up" className="portfolio-page-projects-h1">Projects</h1>
       </div>
 
-      <div className="projects-one-section-div">
+      <div data-aos="fade-up" className="projects-one-section-div">
           <div className="projects-image-title-wrap">
             <h1 className="project-title-project-one">Flareon Frogger</h1>
           </div>
@@ -106,7 +106,7 @@ const Portfolio = () => (
       <h1 className="project-title-project-four">FAM</h1>
     </div>
 
-    <div className="project-four-section-div">
+    <div data-aos="fade-up"  className="project-four-section-div">
 
       <div className="project-four-column-one">
         <img className="project-four-image" src={famLogin} alt="four login" />
@@ -153,7 +153,7 @@ const Portfolio = () => (
           <h1 className="project-title-project-three">plntify</h1>
         </div>
 
-        <div className="project-three-section-div">
+        <div data-aos="fade-up" className="project-three-section-div">
 
           <div className="project-three-column-one">
             <img className="project-image" src={three} alt="three" />
@@ -196,7 +196,7 @@ const Portfolio = () => (
             <h1 className="project-title-project-two">Sorting Hat</h1>
           </div>
 
-          <div className="project-two-section-div">
+          <div data-aos="fade-up" className="project-two-section-div">
 
             <div className="project-two-column-one">
               <img className="project-image" src={two} alt="two" />
@@ -241,7 +241,7 @@ const Portfolio = () => (
 
     <section className="photography-section">
       <div className="photography-header-wrap">
-        <h1 className="photography-h1">Photography</h1>
+        <h1 data-aos="zoom-in" className="photography-h1">Photography</h1>
       </div>
       <div className="photography-images-row">
         <Slideshow />
