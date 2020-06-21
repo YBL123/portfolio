@@ -23,7 +23,7 @@
   @media screen and (max-width: 770px) {
     font-size: 2rem;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 415px) {
     margin: 4rem
   }
   .portfolio-title {
@@ -56,7 +56,7 @@
   .navbar-item {
     text-decoration: none;
     margin: 0 35px 0 5px;
-    @media screen and (max-width: 375px) { 
+    @media screen and (max-width: 415px) { 
       margin: 0px 5px 0 5px;
     }
   }
@@ -133,7 +133,7 @@
 .about-page-text-wrap {
   max-width: 50rem;
   font-family: 'Spectral SC', serif;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     max-width: 20rem !important;
   }
   @media screen and (max-width: 770px) { 
@@ -171,7 +171,7 @@
   margin: 1rem;
   max-width: 25rem;
   box-shadow: 20px 5px 30px #aaaaaa;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     max-width: 20rem;
   }
 }
@@ -180,7 +180,7 @@
 .project-one-wrap {
   display: flex;
   // margin-bottom: 7rem;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     flex-direction: column;
     max-width: 22.5rem;
   }
@@ -202,7 +202,7 @@
     text-decoration: none;
     color: white;
   }
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     display: none;
   }
 }
@@ -234,7 +234,7 @@
   margin: 2.5rem 1rem 1rem;
   font-size: 3rem;
   font-family: 'Cardo', serif;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin: 2.5rem 2rem .5rem;
     font-size: 2.5rem;
     font-family: 'Cardo', serif;
@@ -249,7 +249,7 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   margin-top: 4rem;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin: 2.5rem 2rem .5rem;
     font-size: 2.5rem;
     font-family: 'Cardo', serif;
@@ -264,7 +264,7 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   margin-top: 4rem;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin-bottom: 0.5rem;
     }
 }
@@ -275,7 +275,7 @@
   font-size: 3rem;
   font-family: 'Cardo', serif;
   margin-top: 4rem;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin-bottom: 0.5rem;
     }
 }
@@ -284,7 +284,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     // margin: 2.5rem;
     margin: 0
     }
@@ -342,7 +342,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin: 0 5rem;
   }
 }
@@ -366,7 +366,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin:auto;
   }
 }
@@ -384,7 +384,7 @@ h3 {
   display: flex;
   justify-content: center;
   margin-left: 10rem;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     margin: auto;
   }
   @media screen and (max-width: 1024px) { 
@@ -404,7 +404,7 @@ h3 {
   font-style: italic;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  @media screen and (max-width: 375px) { 
+  @media screen and (max-width: 415px) { 
     display: flex;
     margin-right: 3rem !important;
   }
