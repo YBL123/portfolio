@@ -67,12 +67,20 @@ const Home = () => (
             <div className="project-one-column-one">
               <img className="project-image" src={one} alt="one" />
               <img className="project-image" src={onewin} alt="one win" />
+              <div className="project-one-h3-big-screen">
+              <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">App</a>
+              <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">README</a>
               <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+              </div>
             </div>
             <div className="project-one-column-two">
               <img className="project-image" src={oneplay} alt="one play" />
               <img className="project-image" src={oneover} alt="one over" />
+              <div className="project-one-h3-small-screen">
               <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
+              <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">App</a>
+              <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">README</a>
+              </div>
             </div>
           </div>
         </div>
@@ -104,45 +112,45 @@ const Home = () => (
 
       <div>
 
-    <div className="projects-header-wrap">
-      <h1 className="project-title-project-three">plntify</h1>
-    </div>
-
-    <div className="project-three-section-div">
-
-      <div className="project-three-column-one">
-        <img className="project-image" src={three} alt="three" />
-        <img className="project-image" src={plntifyIndex} alt="three index" />
-      </div>
-
-      <div className="project-three-column-two">
-        <img className="project-image" src={plntifyMap} alt="three map" />
-        <img className="project-image" src={plntifyShow} alt="three show" />
-        <h3>React, Express, Node.js, MongoDB, Sass</h3>
-      </div>
-
-      </div>
-
-      <div> 
-
-      <div className="projects-header-wrap">
-        <h1 className="project-title-project-two">Sorting Hat</h1>
-      </div>
-
-      <div className="project-two-section-div">
-
-        <div className="project-two-column-one">
-          <img className="project-image" src={two} alt="two" />
-          <img className="project-image" src={quiz} alt="two quiz" />
+        <div className="projects-header-wrap">
+          <h1 className="project-title-project-three">plntify</h1>
         </div>
 
-        <div className="project-two-column-two">
-          <img className="project-image" src={getresult} alt="two get result" />
-          <img className="project-image" src={result} alt="two result" />
-          <h3>React, Sass, Express, Node.js</h3>
-        </div>
+        <div className="project-three-section-div">
+
+          <div className="project-three-column-one">
+            <img className="project-image" src={three} alt="three" />
+            <img className="project-image" src={plntifyIndex} alt="three index" />
+          </div>
+
+          <div className="project-three-column-two">
+            <img className="project-image" src={plntifyMap} alt="three map" />
+            <img className="project-image" src={plntifyShow} alt="three show" />
+            <h3>React, Express, Node.js, MongoDB, Sass</h3>
+          </div>
 
         </div>
+
+        <div>
+
+          <div className="projects-header-wrap">
+            <h1 className="project-title-project-two">Sorting Hat</h1>
+          </div>
+
+          <div className="project-two-section-div">
+
+            <div className="project-two-column-one">
+              <img className="project-image" src={two} alt="two" />
+              <img className="project-image" src={quiz} alt="two quiz" />
+            </div>
+
+            <div className="project-two-column-two">
+              <img className="project-image" src={getresult} alt="two get result" />
+              <img className="project-image" src={result} alt="two result" />
+              <h3>React, Sass, Express, Node.js</h3>
+            </div>
+
+          </div>
 
         </div>
 

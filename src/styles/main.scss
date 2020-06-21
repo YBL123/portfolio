@@ -12,6 +12,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+
+
 //! PORTFOLIO TITLE
 .portfolio-title-wrap {
   display: flex;
@@ -193,12 +195,18 @@
 }
 
 .project-one-h3-big-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @media screen and (max-width: 375px) { 
     display: none;
   }
 }
 
 .project-one-h3-small-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   @media screen and (min-width: 376px) { 
     display:none;
   }
