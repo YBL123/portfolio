@@ -1,12 +1,15 @@
 import React from 'react'
 
-// * Our basic home page
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Contact = () => (
   <section className="contact-section">
 
     <div className="contact-wrap">
-      <h1 className="contact-h1">Contact</h1>
+      <h1 data-aos="fade-in" data-aos-anchor-placement="top-bottom" className="contact-h1">Contact</h1>
     </div>
 
     <div className="contact-button-wrap">

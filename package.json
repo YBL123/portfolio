@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aos": "^2.3.4",
     "eslint-plugin-react": "^7.18.3",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
