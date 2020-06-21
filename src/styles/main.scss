@@ -222,6 +222,13 @@
 }
 //! //! //! //! //!
 
+.project-four-h3-big-screen {
+  a {
+  text-decoration: none;
+  color: white;
+  }
+}
+
 .project-title-project-one {
   justify-content: center;
   margin: 2.5rem 1rem 1rem;
@@ -325,7 +332,7 @@ h3 {
 
 .project-four-lang {
   max-width: 20rem;
-  margin: 4rem;
+  margin-top: 0.5rem;
   @media screen and (max-width: 770px) { 
     margin: 1rem;
   }

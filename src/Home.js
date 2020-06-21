@@ -140,7 +140,7 @@ const Home = () => (
         <img className="project-four-image" src={famRegister} alt="four register" />
         <img className="project-four-image" src={famShow} alt="four show" />
 
-        <div className="project-one-h3-big-screen">
+        <div className="project-four-h3-big-screen">
 
           <div className="link-buttons-project-4">
 
