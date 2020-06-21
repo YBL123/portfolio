@@ -186,7 +186,29 @@ const Home = () => (
           <div className="project-three-column-two">
             <img className="project-image" src={plntifyMap} alt="three map" />
             <img className="project-image" src={plntifyShow} alt="three show" />
-            <h3>React, Express, Node.js, MongoDB, Sass</h3>
+
+            <div className="project-four-h3-big-screen">
+
+              <div className="link-buttons-project-4">
+
+                <div className="link-buttons-wrap">
+
+                  <div class="button-container-1">
+                    <span class="mas">Open Project</span>
+                    <button id='work' type="button" name="Hover"><a target="plntify" href="http://plntify-app.herokuapp.com/">Open Project</a></button>
+                  </div>
+
+                  <div class="button-container-1">
+                    <span class="mas">View On Github</span>
+                    <button id='work' type="button" name="Hover"><a target="plntify" href="https://github.com/YBL123/sei-group-project">View On Github</a></button>
+                  </div>
+
+                </div>
+                <h3>React, Express, Node.js, MongoDB, Sass</h3>
+              </div>
+
+            </div>
+
           </div>
 
         </div>
@@ -207,7 +229,37 @@ const Home = () => (
             <div className="project-two-column-two">
               <img className="project-image" src={getresult} alt="two get result" />
               <img className="project-image" src={result} alt="two result" />
-              <h3>React, Sass, Express, Node.js</h3>
+
+
+              <div className="project-four-h3-big-screen">
+
+                <div className="link-buttons-project-4">
+
+                  <div className="link-buttons-wrap">
+
+                    <div class="button-container-1">
+                      <span class="mas">Open Project</span>
+                      <button id='work' type="button" name="Hover"><a target="plntify" href="https://harry-potter-sorting-hat.netlify.app/">Open Project</a></button>
+                    </div>
+
+                    <div class="button-container-1">
+                      <span class="mas">View On Github</span>
+                      <button id='work' type="button" name="Hover"><a target="plntify" href="https://github.com/YBL123/project-2">View On Github</a></button>
+                    </div>
+
+                  </div>
+                  <h3>React, Sass, Express, Node.js</h3>
+                </div>
+
+
+
+
+
+              </div>
+
+
+
+
             </div>
 
           </div>
