@@ -140,9 +140,9 @@ const Home = () => (
         <img className="project-four-image" src={famRegister} alt="four register" />
         <img className="project-four-image" src={famShow} alt="four show" />
 
-        <div className="project-four-h3-big-screen">
+        <div className="project-all-apart-from-one-h3">
 
-          <div className="link-buttons-project-4">
+          <div className="link-buttons-project-all-apart-from-one">
 
             <div className="link-buttons-wrap">
 
@@ -187,9 +187,9 @@ const Home = () => (
             <img className="project-image" src={plntifyMap} alt="three map" />
             <img className="project-image" src={plntifyShow} alt="three show" />
 
-            <div className="project-four-h3-big-screen">
+            <div className="project-all-apart-from-one-h3">
 
-              <div className="link-buttons-project-4">
+              <div className="link-buttons-project-all-apart-from-one">
 
                 <div className="link-buttons-wrap">
 
@@ -231,9 +231,9 @@ const Home = () => (
               <img className="project-image" src={result} alt="two result" />
 
 
-              <div className="project-four-h3-big-screen">
+              <div className="project-all-apart-from-one-h3">
 
-                <div className="link-buttons-project-4">
+                <div className="link-buttons-project-all-apart-from-one">
 
                   <div className="link-buttons-wrap">
 
