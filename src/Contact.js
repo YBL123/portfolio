@@ -6,12 +6,17 @@ const Contact = () => (
   <section className="contact-section">
 
     <div className="contact-wrap">
-    <h1 className="contact-h1">Contact</h1>
+      <h1 className="contact-h1">Contact</h1>
     </div>
 
     <div className="contact-text-wrap">
-      <p className="contact-text">
-      yardenlawson@gmail.com</p>
+      <a href="yardenlawson.gmail.com" className="btn-flip" data-back="yardenlawson@gmail.com" data-front="yardenlawson@gmail.com">
+
+        <p className="contact-text"> yardenlawson@gmail.com</p>
+
+      </a>
+
+
     </div>
 
   </section>

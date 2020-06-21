@@ -68,23 +68,27 @@ const Home = () => (
               <img className="project-image" src={one} alt="one" />
               <img className="project-image" src={onewin} alt="one win" />
               <div className="project-one-h3-big-screen">
-                <div className="link-buttons">
-                  <button> <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a> </button>
-                  <button> <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">View On Github</a> </button>
+
+                <div className="link-buttons"> 
+                    <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a>
+                    <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">View On Github </a>
                   <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
+
               </div>
             </div>
+
             <div className="project-one-column-two">
               <img className="project-image" src={oneplay} alt="one play" />
               <img className="project-image" src={oneover} alt="one over" />
+
               <div className="project-one-h3-small-screen">
-                <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
-                <div className="link-buttons">
-                  <button> <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a> </button>
-                  <button> <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">View On Github</a> </button>
-                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                <div className="link-buttons"> 
+                  <a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a>
+                  <a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one/blob/master/README.md">View On Github</a> 
+                  <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
+
               </div>
             </div>
           </div>
