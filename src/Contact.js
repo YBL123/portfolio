@@ -9,12 +9,21 @@ const Contact = () => (
       <h1 className="contact-h1">Contact</h1>
     </div>
 
-    <div className="contact-text-wrap">
-      <a href="yardenlawson.gmail.com" className="btn-flip" data-back="yardenlawson@gmail.com" data-front="yardenlawson@gmail.com">
+    <div className="contact-button-wrap">
 
-        <p className="contact-text"> yardenlawson@gmail.com</p>
+<div className="link-buttons-project-4">
 
-      </a>
+  <div className="link-buttons-wrap">
+
+    <div class="button-container-1">
+      <span class="mas">yardenlawson@gmail.com</span>
+      <button id='work' type="button" name="Hover"><a target="fam" href="yardnelawson@gmail.com">yardenlawson@gmail.com</a></button>
+    </div>
+
+  </div>
+
+</div>
+
 
 
     </div>
