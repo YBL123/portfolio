@@ -387,8 +387,8 @@ h3 {
   @media screen and (max-width: 375px) { 
     margin: auto;
   }
-  @media screen and (max-width: 770px) { 
-    margin-right: 0 !important;
+  @media screen and (max-width: 1024px) { 
+    margin: auto;
   }
 }
 
@@ -409,7 +409,8 @@ h3 {
     margin-right: 3rem !important;
   }
   @media screen and (max-width: 1025px) { 
-    margin-right: 10rem;
+    // margin-right: 10rem;
+    margin: auto;
   }
 }
 
