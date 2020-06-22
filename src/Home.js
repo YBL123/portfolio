@@ -32,7 +32,7 @@ import result from './images/result.png'
 const Home = () => (
   <>
     <section data-aos="fade-up"
-  data-aos-anchor-placement="top-bottom" className="about-project-one-wrapper">
+      data-aos-anchor-placement="top-bottom" className="about-project-one-wrapper">
 
       <div data-aos="fade-up" className="about-wrap">
         <div className="home-about-wrap">
@@ -41,7 +41,10 @@ const Home = () => (
 
         <div className="home-about-text-wrap">
           <p className="home-about-text">
-            What I love most about photography/art is being able to create things by conceptualising and then bringing those concepts to life. Programming is another conduit through which I will be able to do the same.</p>
+            I have recently made a career change by enrolling in General Assembly’s Software Engineering Immersive course.</p>
+          <br />
+          <p className="home-about-text">
+            I was first introduced to programming through my partner. Seeing how ever-evolving it is and the endless possibilities of what I could create, intrigued and excited me. What I love most about photography/art is the process of concept to creation. To me programming follows the same process.</p>
           <br />
           <p className="home-about-text">
             I am excited about the prospect of combining my creative background with front-end development. This includes the collaborative nature of fashion, my eye for aesthetics, detail and trends.</p>

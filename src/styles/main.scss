@@ -445,12 +445,17 @@ h3 {
 
 //! CONTACT 
 .contact-section {
-  height: 60vh;
+  // height: 60vh;
 }
 
 .contact-wrap {
   justify-content: center;
   display: flex;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  h1 {
+    margin: auto;
+  }
 }
 
 .contact-text-wrap {
@@ -488,6 +493,21 @@ h3 {
   color: white !important;
   text-decoration: none !important;
 }
+.email-wrap {
+  margin-bottom: 3rem;
+}
+
+.contact-github-icon-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  .contact-github-icon {
+    max-width: 5rem;
+    margin-left: 1rem;
+  }
+}
+
 
 
 
