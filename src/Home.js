@@ -94,6 +94,7 @@ const Home = () => (
                 </div>
 
               </div>
+
             </div>
 
             <div className="project-one-column-two">
@@ -125,6 +126,16 @@ const Home = () => (
             </div>
           </div>
         </div>
+
+        <div>
+                  <p>
+                  This is my take on the classic game Frogger. It was my first project on my Software Engineering Immersive course at General Assembly. The time frame for this project was 9 days.
+                  </p>
+                  <br/>
+                  <p>
+                  The concept for my game is to guide the group of four Flareons, one by one to the other side of the board. Once the player reaches an end point, the next Flareon is spawned. The player must navigate through moving obstacles in the first section. Then in the second section, use the floats to get passed the water and on to the end points.
+                  </p>
+                </div>
 
       </div>
 
