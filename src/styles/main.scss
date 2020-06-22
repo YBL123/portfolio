@@ -536,6 +536,13 @@ div.react-slideshow-container .nav:first-of-type {
   margin: 0;
 }
 
+.react-slideshow-container + div.indicators {
+  display: none !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
 .slideshow-h2 {
   font-size: 1.2rem;
   font-family: 'Cardo', serif;
