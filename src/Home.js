@@ -44,7 +44,8 @@ const Home = () => (
             I have recently made a career change by enrolling in General Assembly’s Software Engineering Immersive course.</p>
           <br />
           <p className="home-about-text">
-            I was first introduced to programming through my partner. Seeing how ever-evolving it is and the endless possibilities of what I could create, intrigued and excited me. What I love most about photography/art is the process of concept to creation. To me programming follows the same process.</p>
+            I was first introduced to programming through my partner. Seeing how ever-evolving it is and the endless possibilities of what I could create, intrigued and excited me. What I love most about  my previous career in photography/art is the process of concept to creation. To me programming follows the same process.
+          </p>
           <br />
           <p className="home-about-text">
             I am excited about the prospect of combining my creative background with front-end development. This includes the collaborative nature of fashion, my eye for aesthetics, detail and trends.</p>
