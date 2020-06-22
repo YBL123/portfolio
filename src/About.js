@@ -1,4 +1,5 @@
 import React from 'react'
+import TechIcons from './common/TechIcons'
 
 // * Our basic home page
 
@@ -23,7 +24,11 @@ const About = () => (
       <br />
       <p className="home-about-text">
         My goal is to find a role where I can be a part of a team and continue to learn, expand and develop my skills as a Junior Software Engineer.</p>
+
+        <TechIcons />
     </div>
+
+
 
   </section>
 )
