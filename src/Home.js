@@ -128,14 +128,14 @@ const Home = () => (
         </div>
 
         <div>
-                  <p>
-                  This is my take on the classic game Frogger. It was my first project on my Software Engineering Immersive course at General Assembly. The time frame for this project was 9 days.
+          <p>
+            This is my take on the classic game Frogger. It was my first project on my Software Engineering Immersive course at General Assembly. The time frame for this project was 9 days.
                   </p>
-                  <br/>
-                  <p>
-                  The concept for my game is to guide the group of four Flareons, one by one to the other side of the board. Once the player reaches an end point, the next Flareon is spawned. The player must navigate through moving obstacles in the first section. Then in the second section, use the floats to get passed the water and on to the end points.
+          <br />
+          <p>
+            The concept for my game is to guide the group of four Flareons, one by one to the other side of the board. Once the player reaches an end point, the next Flareon is spawned. The player must navigate through moving obstacles in the first section. Then in the second section, use the floats to get passed the water and on to the end points.
                   </p>
-                </div>
+        </div>
 
       </div>
 
@@ -179,7 +179,21 @@ const Home = () => (
 
         </div>
 
+      </div>
 
+      <div>
+        <p>
+          Welcome to FAM.  This is a curated app. Each month we share ‘Our Favourites For The Month’ for film, art and music.
+        </p>
+        <p>
+          Users can filter the posts by month in the index pages,  should they want to look at previous posts.
+        </p>
+        <p>
+          Signing up gives users the ability to access the favourites feature. This allows them to curate their own favourites list.
+        </p>
+        <p>
+          Once signed up they are also able to leave reviews and ratings on our curated posts.
+        </p>
       </div>
 
     </div>
@@ -227,6 +241,25 @@ const Home = () => (
 
           </div>
 
+
+          <div>
+            <p>
+              A plant trading social app. The time frame for this group project was a week. Our group was made up of 4 members.
+        </p>
+            <p>
+              Each user has their own portfolio of plants that is diplayed on their profile page.
+        </p>
+            <p>
+              The users are able to use the interactive map to see other plant's locations. Users are also able to add their own plant's location when they add a plant or edit their plant. A map thumbnail with a marker for the plant's location is also displayed on each plant page.
+        </p>
+            <p>
+              There is a trade feature where users are able to offer a plant from their portfolio in exchange for another user's plant. The user who receives this offer is able to accept or decline. The user who made the offer is able to see their offer's status via their profile page.
+        </p>
+            <p>
+              Users are able to like and comment on other user's plants, as well as being able to communicate through a private chat.
+        </p>
+          </div>
+
         </div>
 
         <div>
@@ -269,6 +302,12 @@ const Home = () => (
 
               </div>
 
+            </div>
+
+            <div>
+              <p>
+                A quiz emulating the sorting hat from Harry Potter. The time frame for this pair coding project was 48 hours. The main game logic was completed in this time. I used the following weekend to complete the result feature (alternating result house crest images and info depending on result), and styling.
+                  </p>
             </div>
 
           </div>
