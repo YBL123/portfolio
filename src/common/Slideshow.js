@@ -268,7 +268,6 @@ import photo291 from '../photography/photo291.jpg'
 import photo292 from '../photography/photo292.jpg'
 import photo293 from '../photography/photo293.jpg'
 import photo294 from '../photography/photo294.jpg'
-import photo295 from '../photography/photo295.jpg'
 import photo296 from '../photography/photo296.jpg'
 import photo297 from '../photography/photo297.jpg'
 import photo298 from '../photography/photo298.jpg'
@@ -282,6 +281,17 @@ import photo305 from '../photography/photo305.jpg'
 import photo306 from '../photography/photo306.jpg'
 import photo307 from '../photography/photo307.jpg'
 import photo308 from '../photography/photo308.jpg'
+import photo309 from '../photography/photo309.jpg'
+import photo310 from '../photography/photo310.jpg'
+import photo311 from '../photography/photo311.jpg'
+import photo312 from '../photography/photo312.jpg'
+import photo313 from '../photography/photo313.jpg'
+import photo314 from '../photography/photo314.jpg'
+import photo315 from '../photography/photo315.jpg'
+import photo316 from '../photography/photo316.jpg'
+import photo317 from '../photography/photo317.jpg'
+import photo318 from '../photography/photo318.jpg'
+import photo319 from '../photography/photo319.jpg'
 
 
 // const fadeImages = [
@@ -2828,6 +2838,96 @@ const Slideshow = () => {
           </div>
           <div className="photo-title">
           <h2 className="slideshow-h2">Sofie Sjaastad </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo309} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Rebekka Sandok </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo310} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Sofie Sjaastad </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo311} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Sofie Sjaastad </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo312} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Sofie Sjaastad </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo313} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Lea Julian </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo315} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Lea Julian </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo316} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Matthew Woodley </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo317} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Matthew Woodley </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo318} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Matthew Woodley </h2> 
+          </div>
+        </div>
+
+        <div className="each-fade">
+          <div className="image-container">
+          <img className="slide-image" src={photo319} alt="fadImages" />
+          </div>
+          <div className="photo-title">
+          <h2 className="slideshow-h2">Matthew Woodley </h2> 
           </div>
         </div>
 
