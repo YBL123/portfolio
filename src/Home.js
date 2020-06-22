@@ -242,7 +242,7 @@ const Home = () => (
           </div>
 
 
-          <div>
+          <div className="plntify-about-app-text-wrap">
             <p>
               A plant trading social app. The time frame for this group project was a week. Our group was made up of 4 members.
         </p>
@@ -304,7 +304,7 @@ const Home = () => (
 
             </div>
 
-            <div>
+            <div className="sorting-hat-about-app-text-wrap">
               <p>
                 A quiz emulating the sorting hat from Harry Potter. The time frame for this pair coding project was 48 hours. The main game logic was completed in this time. I used the following weekend to complete the result feature (alternating result house crest images and info depending on result), and styling.
                   </p>
