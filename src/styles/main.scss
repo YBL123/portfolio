@@ -116,7 +116,9 @@
 .home-about-text-wrap {
   margin: 10px;
   max-width: 35rem;
-  font-family: 'Spectral SC', serif;
+  // font-family: 'Spectral SC', serif;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
   @media screen and (max-width: 1024px) { 
     max-width: 50rem;
   }
@@ -198,6 +200,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
   a {
     text-decoration: none;
     color: white;
@@ -212,6 +216,8 @@
   flex-direction: column;
   align-items: center;
   text-decoration: none;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
   a {
     text-decoration: none;
     color: white;
@@ -379,17 +385,28 @@ h3 {
   margin-bottom: 0;
 }
 
+.flareon-about-app-text-wrap {
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
+}
+
 .plntify-about-app-text-wrap {
   max-width: 30rem;
   margin: 3rem;
   margin-top: 0;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
 }
 .sorting-hat-about-app-text-wrap {
   max-width: 42rem;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
 }
 .fam-about-app-text-wrap {
   max-width: 30rem;
   margin: 1.5rem;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 0.8rem;
 }
 
 //! PORTFOLIO PAGE 

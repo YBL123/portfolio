@@ -119,7 +119,7 @@ const Home = () => (
 
                   </div>
 
-                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                  <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
 
               </div>
@@ -127,7 +127,7 @@ const Home = () => (
           </div>
         </div>
 
-        <div>
+        <div className="flareon-about-app-text-wrap">
           <p>
           This was my first solo project at General Assembly. The brief was to render a grid-based game in the browser, design logic for winning and visually display which player won, using JavaScript for DOM manipulation. My strategy for building the game was to split the game logic into different stages of functionality and complete them one by one. The time frame was 9 days.
                   </p>
