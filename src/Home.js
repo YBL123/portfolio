@@ -174,7 +174,7 @@ const Home = () => (
 
             </div>
 
-            <h3 className="project-four-lang">Python, Django, SQL, PostgreSQL, React, React Hooks, Axios, Sass</h3>
+            <h3 className="project-four-lang">Python, Django, PostgreSQL, React, React Hooks, Axios, Sass</h3>
           </div>
 
         </div>
@@ -237,7 +237,7 @@ const Home = () => (
                   </div>
 
                 </div>
-                <h3>React, Express, Node.js, MongoDB, Sass, Axios</h3>
+                <h3 className="plntify-lang">React, Express, Node.js, MongoDB, Sass, Axios</h3>
               </div>
 
             </div>
@@ -304,7 +304,7 @@ const Home = () => (
                     </div>
 
                   </div>
-                  <h3>React, Sass, Express, Node.js</h3>
+                  <h3 className="sorting-hat-lang">React, Sass, Express, Node.js</h3>
                 </div>
 
               </div>
