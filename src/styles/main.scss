@@ -227,10 +227,10 @@
   @media screen and (max-width: 415px) { 
     display: none !important;
   }
-  @media screen and (max-width: 770px) { 
+  @media screen and (max-width: 830px) { 
     display: none !important;
   }
-  @media screen and (max-width: 1024px) { 
+  @media screen and (min-width: 1023px) { 
     display: flex;
   }
 }
@@ -252,8 +252,8 @@
   @media screen and (max-width: 770px) { 
     display:flex !important;
   }
-  @media screen and (max-width: 1024px) { 
-    display:none;
+  @media screen and (min-width: 831px) { 
+    display:none !important;
   }
 }
 //! //! //! //! //!
