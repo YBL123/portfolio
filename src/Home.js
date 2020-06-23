@@ -129,7 +129,7 @@ const Home = () => (
 
         <div>
           <p>
-            This is my take on the classic game Frogger. It was my first project on my Software Engineering Immersive course at General Assembly. The time frame for this project was 9 days.
+          This was my first solo project at General Assembly. The brief was to render a grid-based game in the browser, design logic for winning and visually display which player won, using JavaScript for DOM manipulation. My strategy for building the game was to split the game logic into different stages of functionality and complete them one by one. The time frame was 9 days.
                   </p>
           <br />
           <p>
@@ -174,14 +174,14 @@ const Home = () => (
 
             </div>
 
-            <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+            <h3 className="project-four-lang">Python, Django, SQL, PostgreSQL, React, React Hooks, Axios, Sass</h3>
           </div>
 
         </div>
 
       </div>
 
-      <div>
+      <div className="fam-about-app-text-wrap">
         <p>
           Welcome to FAM.  This is a curated app. Each month we share ‘Our Favourites For The Month’ for film, art and music.
         </p>
@@ -193,6 +193,9 @@ const Home = () => (
         </p>
         <p>
           Once signed up they are also able to leave reviews and ratings on our curated posts.
+        </p>
+        <p>
+          My teammate and I had 8 days to build a full stack application. We began by planning out our models’ relationships using an ERD model. We then built the foundation of our backend in Django together in pair programming.  We both wanted to work full stack on this project and so once the foundation was laid we split responsibilities. I worked full stack on the reviews and ratings. I was also responsible for building the login and register.  The rest of the front end and styling was split 50/50. We had also explored using React Hooks in some of our components as we both really loved the concept of useState and useEffect.
         </p>
       </div>
 
@@ -234,7 +237,7 @@ const Home = () => (
                   </div>
 
                 </div>
-                <h3>React, Express, Node.js, MongoDB, Sass</h3>
+                <h3>React, Express, Node.js, MongoDB, Sass, Axios</h3>
               </div>
 
             </div>
@@ -257,6 +260,10 @@ const Home = () => (
         </p>
             <p>
               Users are able to like and comment on other user's plants, as well as being able to communicate through a private chat.
+        </p>
+            <p>
+              My main responsibilities for this project was working full stack on the likes and comments using mongoDB and React.
+              I also worked in pair programming with one of my teammates setting up our map feature using the Mapbox documentation.  We split off after this and she worked on the main interactive map feature, whilst I implemented the map thumbnail in our “plant show pages”.  Additionally I laid out some of our  foundational routing and pages in the front end.
         </p>
           </div>
 
@@ -306,7 +313,9 @@ const Home = () => (
 
             <div className="sorting-hat-about-app-text-wrap">
               <p>
-                A quiz emulating the sorting hat from Harry Potter. The time frame for this pair coding project was 48 hours. The main game logic was completed in this time. I used the following weekend to complete the result feature (alternating result house crest images and info depending on result), and styling.
+                A quiz emulating the sorting hat from Harry Potter. 
+
+                This project was completed in 48 hours in pair programming. This was my first time building an app in React and consuming a public API. We consumed the public potterapi API, the main quiz logic was completed in this time frame. I used the following weekend to complete the styling and the results feature. I built a function that would display the correct house image and house info according to the user’s result.
                   </p>
             </div>
 
