@@ -148,7 +148,7 @@ const Portfolio = () => (
 
             </div>
 
-            <h3 className="project-four-lang">Python, Django, SQL, Postgres, React, React Hooks, Sass</h3>
+            <h3 className="project-four-lang">Python, Django, PostgreSQL, React, React Hooks, Sass</h3>
           </div>
 
         </div>
