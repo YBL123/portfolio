@@ -90,7 +90,7 @@ const Home = () => (
 
                   </div>
 
-                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, JavaScript (ES6)</h3>
                 </div>
 
               </div>
@@ -119,7 +119,7 @@ const Home = () => (
 
                   </div>
 
-                  <h3 className="project-one-h3-small-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                  <h3 className="project-one-h3-small-screen">HTML5, CSS3, JavaScript (ES6)</h3>
                 </div>
 
               </div>
