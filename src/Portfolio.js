@@ -148,7 +148,7 @@ const Portfolio = () => (
 
             </div>
 
-            <h3 className="project-four-lang">Python, Django, PostgreSQL, React, React Hooks, Sass</h3>
+            <h3 className="project-four-lang">Python, Django, PostgreSQL, React, React Hooks, Axios, Sass</h3>
           </div>
 
         </div>
@@ -211,7 +211,7 @@ const Portfolio = () => (
                   </div>
 
                 </div>
-                <h3 className="h3-portfolio-page-plntify">React, Express, Node.js, MongoDB, Sass</h3>
+                <h3 className="h3-portfolio-page-plntify">React, Express, Node.js, MongoDB, Sass, Axios</h3>
               </div>
 
             </div>
@@ -278,7 +278,7 @@ const Portfolio = () => (
                     </div>
 
                   </div>
-                  <h3 className="h3-portfolio-page-sorting-hat">React, Sass, Express, Node.js</h3>
+                  <h3 className="h3-portfolio-page-sorting-hat">RReact, Sass, Express, Node.js</h3>
                 </div>
 
               </div>
