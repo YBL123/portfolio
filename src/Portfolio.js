@@ -42,28 +42,9 @@ const Portfolio = () => (
           </div>
           <div className="project-one-wrap">
             <div className="project-one-column-one">
-              <img className="project-image" src={one} alt="one" />
-              <img className="project-image" src={onewin} alt="one win" />
+            <img className="project-image" src={oneplay} alt="one play" />
+              <img className="project-image" src={oneover} alt="one over" />
               <div className="project-one-h3-big-screen">
-
-                <div className="link-buttons">
-
-                  <div className="link-buttons-wrap">
-
-                    <div class="button-container-1">
-                      <span class="mas">Open Project</span>
-                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://ybl123.github.io/sei-project-one/">Open Project</a></button>
-                    </div>
-
-                    <div class="button-container-1">
-                      <span class="mas">View On Github</span>
-                      <button id='work' type="button" name="Hover"><a target="flareon-frogger" href="https://github.com/YBL123/sei-project-one">View On Github</a></button>
-                    </div>
-
-                  </div>
-
-                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, JavaScript (ES6)</h3>
-                </div>
 
               </div>
               
@@ -71,10 +52,11 @@ const Portfolio = () => (
             
 
             <div className="project-one-column-two">
-              <img className="project-image" src={oneplay} alt="one play" />
-              <img className="project-image" src={oneover} alt="one over" />
+            <img className="project-image" src={one} alt="one" />
+              <img className="project-image" src={onewin} alt="one win" />
+    
 
-              <div className="project-one-h3-small-screen">
+              <div className="portfolio-project-one-h3">
 
                 <div className="link-buttons">
 
@@ -92,7 +74,7 @@ const Portfolio = () => (
 
                   </div>
 
-                  <h3 className="project-one-h3-big-screen">HTML5, CSS3, Javascript (ES6)</h3>
+                  <h3 className="portfolio-project-one-h3">HTML5, CSS3, Javascript (ES6)</h3>
                 </div>
 
               </div>
