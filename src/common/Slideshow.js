@@ -2877,7 +2877,7 @@ const Slideshow = () => {
           </div>
         </div>
 
-        <div className="each-fade">
+        {/* <div className="each-fade">
           <div className="image-container">
           <img className="slide-image" src={photo313} alt="fadImages" />
           </div>
@@ -2893,7 +2893,7 @@ const Slideshow = () => {
           <div className="photo-title">
           <h2 className="slideshow-h2">Lea Julian </h2> 
           </div>
-        </div>
+        </div> */}
 
         <div className="each-fade">
           <div className="image-container">
