@@ -550,6 +550,9 @@ h3 {
   margin-top: 4rem;
   margin-bottom: 0.3rem;
   padding: 0 5rem;
+  @media screen and (max-width: 415px) { 
+    font-size: 3rem;
+  }
 }
 
 
