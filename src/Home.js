@@ -48,7 +48,7 @@ const Home = () => (
           </p>
           <br />
           <p className="home-about-text">
-            I am excited about the prospect of combining my creative background with front-end development. This includes the collaborative nature of fashion, my eye for aesthetics, detail and trends.</p>
+            I am excited about the prospect of combining my creative background with software development. This includes the collaborative nature of fashion, my eye for aesthetics, detail and trends.</p>
           <br />
           <p className="home-about-text">
             My goal is to find a role where I can be a part of a team and continue to learn, expand and develop my skills as a Junior Software Engineer.</p>
