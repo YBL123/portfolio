@@ -563,7 +563,8 @@ const Slideshow = () => {
           <img className="slide-image" src={photo30} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2 className="slideshow-h2">Oli Marcinkiewicz, Lucas Cotty, Alistair Waterfield</h2>
+          <h2 className="slideshow-h2">Oli, Lucas,
+          Alistair</h2>
           </div>
         </div>
 
@@ -645,7 +646,7 @@ const Slideshow = () => {
           <img className="slide-image" src={photo41} alt="fadImages" />
           </div>
           <div className="photo-title">
-          <h2 className="slideshow-h2">Oli Marcinkiewicz, Lucas Cotty, Alistair Waterfield</h2>
+          <h2 className="slideshow-h2">Oli, Lucas, Alistair</h2>
           </div>
         </div>
 
