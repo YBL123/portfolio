@@ -559,7 +559,8 @@ h3 {
   font-family: 'Lobster', cursive;
   font-style: italic;
   margin-top: 4rem;
-  margin-bottom: 0.3rem;
+  // margin-bottom: 0.3rem;
+  margin-bottom:0;
   padding: 0 5rem;
   @media screen and (max-width: 415px) { 
     font-size: 3rem;
@@ -655,6 +656,10 @@ h3 {
   justify-content: center;
 }
 
+//! TECH ICONS FOR EACH PROJECT
+.javascript-icon-project {
+  margin-top: 0 !important;
+}
 
 
 //! SLIDESHOW

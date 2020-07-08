@@ -1,6 +1,7 @@
 import React from 'react'
 
 import TechIcons from './common/TechIcons'
+import TechIconsOne from './common/TechIconsOne'
 import Slideshow from './common/Slideshow'
 
 //! project one - FLAREON FROGGER
@@ -89,7 +90,8 @@ const Home = () => (
                     </div>
 
                   </div>
-
+                  {/* <h3 className="project-one-h3-big-screen">Built With:</h3>
+                  <TechIconsOne /> */}
                   <h3 className="project-one-h3-big-screen">HTML5, CSS3, JavaScript (ES6)</h3>
                 </div>
 
