@@ -485,6 +485,17 @@ h3 {
     max-width: 50rem;
   }
 }
+.photography-text-wrap {
+  max-width: 50rem;
+  margin: 3rem;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Courier, Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size: 1rem;
+  @media screen and (max-width: 1024px) { 
+    max-width: 50rem;
+  }
+}
 
 //! PORTFOLIO PAGE 
 .portfolio-page-wrap {

@@ -330,6 +330,11 @@ const Home = () => (
       <div className="photography-header-wrap">
         <h1 data-aos="zoom-in" className="photography-h1">Photography</h1>
       </div>
+      <div className="photography-text-wrap">
+              <p>
+              I have always been intrigued by faces and characters, and have loved capturing, creating and observing them through a variety of different media, be it sculpture, painting, drawing, photography, film or fashion. 
+                  </p>
+            </div>
       <div className="photography-images-row">
         <Slideshow />
       </div>
