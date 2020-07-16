@@ -260,7 +260,7 @@ const Portfolio = () => (
                     </div>
 
                   </div>
-                  <h3 className="h3-portfolio-page-sorting-hat">RReact, Sass, Express, Node.js</h3>
+                  <h3 className="h3-portfolio-page-sorting-hat">React, Sass, Express, Node.js</h3>
                 </div>
 
               </div>
