@@ -143,7 +143,6 @@ import photo146 from '../photography/photo146.jpg'
 import photo147 from '../photography/photo147.jpg'
 import photo148 from '../photography/photo148.jpg'
 import photo149 from '../photography/photo149.jpg'
-import photo151 from '../photography/photo151.jpg'
 import photo152 from '../photography/photo152.jpg'
 import photo153 from '../photography/photo153.jpg'
 import photo154 from '../photography/photo154.jpg'
@@ -1590,15 +1589,6 @@ const Slideshow = () => {
         <div className="each-fade">
           <div className="image-container">
           <img className="slide-image" src={photo149} alt="fadImages" />
-          </div>
-          <div className="photo-title">
-          <h2 className="slideshow-h2">Hero Fiennes-Tiffin</h2>
-          </div>
-        </div>
-
-        <div className="each-fade">
-          <div className="image-container">
-          <img className="slide-image" src={photo151} alt="fadImages" />
           </div>
           <div className="photo-title">
           <h2 className="slideshow-h2">Hero Fiennes-Tiffin</h2>
