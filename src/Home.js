@@ -1,7 +1,6 @@
 import React from 'react'
 
 import TechIcons from './common/TechIcons'
-import TechIconsOne from './common/TechIconsOne'
 import Slideshow from './common/Slideshow'
 
 //! project one - FLAREON FROGGER
