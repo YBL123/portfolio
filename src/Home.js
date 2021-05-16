@@ -327,7 +327,7 @@ const Home = () => (
       </div>
     </div>
 
-    <section className="photography-section">
+    {/* <section className="photography-section">
       <div className="photography-header-wrap">
         <h1 data-aos="zoom-in" className="photography-h1">Photography</h1>
       </div>
@@ -339,7 +339,7 @@ const Home = () => (
       <div className="photography-images-row">
         <Slideshow />
       </div>
-    </section>
+    </section> */}
 
   </>
 )
